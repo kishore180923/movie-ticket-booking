@@ -32,7 +32,7 @@ const spotlightData = [
   },
   {
     title: 'Imagine Dragons Vibes',
-    date: 'September 3, 2025',
+    date: 'September 3, 2023',
     location: 'Bangalore Live Grounds',
     image: 'https://i.imgur.com/bn4UIGb.jpg',
   },
