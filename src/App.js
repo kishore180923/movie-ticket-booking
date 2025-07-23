@@ -7,6 +7,7 @@ import Highlights from './components/highlights/Highlights';
 import MusicConcepts from './components/musicConcepts/MusicConcepts';
 import AboutUs from './components/about/About';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Highlights />
       <MusicConcepts />
       <UpcomingEvents />
-      <AboutUs />
+      {/* <AboutUs /> */}
+      <Footer />
     </div>
   );
 }

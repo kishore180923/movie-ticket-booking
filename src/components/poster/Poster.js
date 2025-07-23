@@ -1,67 +1,78 @@
 import React from "react";
 import { FaStar, FaThumbsUp } from "react-icons/fa";
 
+// Import images
+import moneyHeist from "../assets/Movies/Money heist.jpg";
+import breakingBad from "../assets/Movies/breaking-bad.jpg";
+import peakyBlinders from "../assets/Movies/peaky-blinders.jpg";
+import nightManager from "../assets/Movies/night-manager.jpg";
+import darkNight from "../assets/Movies/dark-night.jpg";
+import dark from "../assets/Movies/dark.jpg";
+import strangerThings from "../assets/Movies/stranger-things.jpg";
+import neverHaveIEver from "../assets/Movies/never-have-i-ever.jpg";
+
+// Movie data
 const movies = [
   {
-    title: "Padai Thalaivan",
+    title: "Money Heist",
     genre: "Action/Thriller",
     rating: "7.4/10",
     votes: "48 Votes",
     type: "rating",
-    poster: "https://i.imgur.com/OwXQ0NQ.jpg",
+    poster: moneyHeist,
   },
   {
-    title: "Thug Life",
+    title: "Breaking Bad",
     genre: "Action/Crime/Drama/Thriller",
     rating: "5/10",
     votes: "24.1K Votes",
     type: "rating",
-    poster: "https://i.imgur.com/I4jOmkD.jpg",
+    poster: breakingBad,
   },
   {
-    title: "Guts",
+    title: "Peaky Blinders",
     genre: "Crime/Thriller",
     rating: "161 Likes",
     type: "likes",
-    poster: "https://i.imgur.com/LlUGP6v.jpg",
+    poster: peakyBlinders,
   },
   {
-    title: "Paramasivan Fathima",
+    title: "The Night Manager",
     genre: "Horror/Thriller",
     rating: "8.9/10",
     votes: "277 Votes",
     type: "rating",
-    poster: "https://i.imgur.com/oLEL1aB.jpg",
+    poster: nightManager,
   },
   {
-    title: "How to Train Your Dragon",
+    title: "Dark Night",
     genre: "Adventure/Family/Fantasy",
     rating: "85.2K Likes",
     type: "likes",
-    poster: "https://i.imgur.com/jzfqTyU.jpg",
+    poster: darkNight,
   },
   {
-    title: "Leo: Rise of the Beast",
+    title: "Dark",
     genre: "Action/Fantasy",
     rating: "9.2/10",
     votes: "812 Votes",
     type: "rating",
-    poster: "https://i.imgur.com/4Zl8yKn.jpg",
+    poster: dark,
   },
   {
-    title: "Silent Whispers",
+    title: "Stranger Things",
     genre: "Mystery/Drama",
     rating: "198 Likes",
     type: "likes",
-    poster: "https://i.imgur.com/mMIvL3c.jpg",
+    poster: strangerThings,
   },
   {
-    title: "Raja: The Legend",
+    title: "Never Have I Ever",
     genre: "Historical/Adventure",
     rating: "6.8/10",
     votes: "521 Votes",
     type: "rating",
-    poster: "https://i.imgur.com/rmyl7GC.jpg",
+    poster: neverHaveIEver,
   },
 ];
 
@@ -69,7 +80,7 @@ const RecommendedMovies = () => {
   return (
     <div className="p-6 bg-gray-100">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-800">Recommended Movies</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Recommended Series</h2>
         <a href="#" className="text-sm text-red-500 hover:underline">See All ›</a>
       </div>
 

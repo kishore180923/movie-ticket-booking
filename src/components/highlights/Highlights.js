@@ -1,27 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import bts from '../assets/Movies/Bts-world.jpg';
+import Wallwalker from '../assets/Movies/Wall-walker.jpg';
+import Eminem from '../assets/Movies/Eminem.jpeg';
+
 const spotlightData = [
   {
     title: 'Wallwalker Live',
     date: 'July 20, 2025',
     location: 'Mumbai Arena',
-    image: 'https://i.imgur.com/3eF8Bpn.jpg',
+    image: Wallwalker,
   },
   {
     title: 'BTS World Tour',
     date: 'August 5, 2025',
     location: 'Chennai Stadium',
-    image: 'https://i.imgur.com/z7Q4Zei.jpg',
+    image: bts,
   },
   {
     title: 'Eminem: Revival Night',
     date: 'August 15, 2025',
     location: 'Delhi Dome',
-    image: 'https://i.imgur.com/hs5gHkQ.jpg',
+    image: Eminem ,
   },
   {
-    title: 'Kaber Vasuki Oorvalam',
+    title: 'dua lipa music concert',
     date: 'Aug 2, 2025',
     location: 'APL Global, Chennai',
     image: 'https://i.imgur.com/Y2yaTBr.png',
